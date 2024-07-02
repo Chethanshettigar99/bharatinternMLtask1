@@ -3,6 +3,7 @@
 This Flask web application predicts real estate prices based on user inputs for bedrooms, bathrooms, size, and zip code. It loads a dataset and a pre-trained Ridge regression model. The main page (index.html) displays dropdown menus populated with unique values from the dataset. When the user submits the form, the app processes the input data, handles any unknown categories, and predicts the price using the model. The app runs on localhost at port 5000 in debug mode.
 
 key points
+
 Data Handling: Loads a CSV dataset (final_dataset.csv) and a pre-trained Ridge regression model (RidgeModel.pkl) using Pandas and Pickle, respectively.
 
 Dynamic Form Population: Extracts unique values from the dataset to populate dropdown menus in the HTML form for bedrooms, bathrooms, sizes, and zip codes.
