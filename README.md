@@ -1,4 +1,4 @@
-#HOUSE PRICE PREDICTION
+# HOUSE PRICE PREDICTION
 
 size, and zip code. It loads a dataset and a pre-trained Ridge regression model. The main page (index.html) displays dropdown menus populated with unique values from the dataset. When the user submits the form, the app processes the input data, handles any unknown categories, and predicts the price using the model. The app runs on localhost at port 5000 in debug mode.
 Flask Framework: Utilizes Flask to create a web application for predicting real estate prices.
